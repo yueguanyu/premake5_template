@@ -1,0 +1,3 @@
+[submodule "cmake"]
+	path = cmake
+	url = https://github.com/yueguanyu/premake5-cmake.git

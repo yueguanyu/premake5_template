@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package package.name;
+
+message Data1 {
+    int32 id = 1;
+}

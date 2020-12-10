@@ -1,0 +1,11 @@
+build
+build_*
+bin
+bin-int
+obj
+.vs
+.vscode
+
+*.sln
+*.vcxproj
+*.vcxproj.user

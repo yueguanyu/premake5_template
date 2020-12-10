@@ -1,0 +1,4 @@
+
+.PHONY: protos
+protos:
+	protoc --proto_path=E:\dev\protoc-3.13.0-win64\include --proto_path=protos\data --cpp_out=test protos\data\*.proto
