@@ -11,8 +11,11 @@ with cmake build you should use command
 premake5 cmake
 ```
 the compile order in the main CMakeLists.txt should be sorted as your dependency hierarchy.
+
+```shell
 # When done tweaking common stuff, configure the components (subprojects).
 # NOTE: The order matters! The most independent ones should go first.
+```
 add_subdirectory(libA) # A is a static library 
 add_subdirectory(libB) # B is a shared library (depends on B)
 
